@@ -1,0 +1,25 @@
+# robots.txt for RareMed Supply
+# https://raremedsupply.com.ng
+
+# Allow all search engine bots to crawl the entire site
+User-agent: *
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Block access to any admin or sensitive paths
+Disallow: /admin
+Disallow: /dashboard
+
+# Sitemap location
+Sitemap: https://raremedsupply.com.ng/sitemap.xml
