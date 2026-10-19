@@ -1,0 +1,47 @@
+name: Build pharmacy pages
+
+on:
+  schedule:
+    - cron: '0 3 * * *'      # every day at 03:00 UTC
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+  push:
+    paths:
+      - 'scripts/build_pages.py'
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build pages from the Supabase directory
+        run: python scripts/build_pages.py
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name "raremed-bot"
+          git config user.email "bot@raremedsupply.com.ng"
+          git add pharmacies sitemap.xml
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to publish."
+          else
+            git commit -m "Update pharmacy pages"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ask GitHub Pages to rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
