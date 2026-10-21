@@ -2,8 +2,8 @@ name: Build pharmacy pages
 
 on:
   schedule:
-    - cron: '0 3 * * *'
-  workflow_dispatch:
+    - cron: '0 3 * * *'      # every day at 03:00 UTC
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
   push:
     paths:
       - 'scripts/build_pages.py'
@@ -30,7 +30,8 @@ jobs:
         run: |
           git config user.name "raremed-bot"
           git config user.email "bot@raremedsupply.com.ng"
-          git add pharmacies sitemap.xml
+          git add -A pharmacies sitemap.xml
+          if [ -d drugs ]; then git add -A drugs; fi
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes to publish."
