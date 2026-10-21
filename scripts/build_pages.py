@@ -6,10 +6,12 @@ Supabase `directory_pharmacies` table.
 Output (written to the repo root):
   pharmacies/index.html            hub page listing every state
   pharmacies/<state>/index.html    one page per state with enough pharmacies
+  drugs/index.html                 hub page listing every published medicine guide
+  drugs/<medicine>/index.html      one page per published entry in the drug_info table
   sitemap.xml                      homepage + all generated pages
 
 Run locally:   python scripts/build_pages.py
-Test offline:  python scripts/build_pages.py --json sample.json
+Test offline:  python scripts/build_pages.py --json sample.json [--drugs-json drugs.json]
 No secrets needed: it reads the public Supabase URL / anon key from index.html
 (the same ones the website already uses; the table is publicly readable).
 """
@@ -18,6 +20,7 @@ import json
 import re
 import shutil
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -26,6 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://raremedsupply.com.ng"
 MIN_PHARMACIES = 5          # states with fewer pharmacies don't get a page (avoids thin pages)
 OUT_DIR = ROOT / "pharmacies"
+DRUG_DIR = ROOT / "drugs"
 
 INDEX = (ROOT / "index.html").read_text(encoding="utf-8")
 
@@ -36,6 +40,10 @@ def const(name):
 
 
 SUPABASE_URL = const("SUPABASE_URL")
+if not SUPABASE_URL or not const("SUPABASE_ANON_KEY"):
+    print("ERROR: could not find SUPABASE_URL / SUPABASE_ANON_KEY in index.html")
+    sys.exit(1)
+print("Using Supabase project:", SUPABASE_URL)
 SUPABASE_KEY = const("SUPABASE_ANON_KEY")
 GA_ID = const("window.GA_MEASUREMENT_ID") or (re.search(r"GA_MEASUREMENT_ID\s*=\s*'(G-[A-Z0-9]+)'", INDEX) or [None, None])[1]
 GTM_ID = (re.search(r"'(GTM-[A-Z0-9]+)'", INDEX) or [None, None])[1]
@@ -50,11 +58,42 @@ def fetch_all():
         req = urllib.request.Request(url, headers={
             "apikey": SUPABASE_KEY,
             "Authorization": "Bearer " + SUPABASE_KEY,
+            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 (compatible; RareMedPageBuilder/1.0)",
             "Range-Unit": "items",
             "Range": "%d-%d" % (start, start + 999),
         })
-        with urllib.request.urlopen(req, timeout=60) as r:
-            batch = json.loads(r.read().decode("utf-8"))
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                batch = json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", "replace")[:500]
+            print("ERROR: Supabase answered HTTP %s: %s" % (e.code, body))
+            sys.exit(1)
+        except Exception as e:  # network problem, bad JSON, etc.
+            print("ERROR: could not read the directory: %r" % (e,))
+            sys.exit(1)
+        rows += batch
+        if len(batch) < 1000:
+            return rows
+        start += 1000
+
+
+def fetch_drugs():
+    """Published drug_info rows. Returns [] (and keeps going) if the table is missing."""
+    rows, start = [], 0
+    while True:
+        url = SUPABASE_URL + "/rest/v1/drug_info?select=*&published=eq.true&order=name.asc"
+        req = urllib.request.Request(url, headers={
+            "apikey": SUPABASE_KEY, "Authorization": "Bearer " + SUPABASE_KEY,
+            "Accept": "application/json", "User-Agent": "Mozilla/5.0 (compatible; RareMedPageBuilder/1.0)",
+            "Range-Unit": "items", "Range": "%d-%d" % (start, start + 999)})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                batch = json.loads(r.read().decode("utf-8"))
+        except Exception as e:
+            print("WARNING: could not read drug_info (%r). Skipping drug pages." % (e,))
+            return []
         rows += batch
         if len(batch) < 1000:
             return rows
@@ -248,6 +287,115 @@ def hub_page(states):
     return page(title, desc, url, body, jsonld)
 
 
+def lines_html(text):
+    ls = [l.strip() for l in str(text or "").split("\n") if l.strip()]
+    if not ls:
+        return ""
+    if len(ls) == 1:
+        return "<p>%s</p>" % esc(ls[0])
+    return "<ul>%s</ul>" % "".join("<li>%s</li>" % esc(l) for l in ls)
+
+
+DRUG_CSS = """
+.sec{background:#fff;border:1px solid var(--g200);border-radius:16px;padding:16px 18px;margin:12px 0}
+.sec h2{font-size:15px;margin:0 0 8px;padding:0;border:0;display:flex;align-items:center;gap:8px}
+.sec h2::before{content:'';width:9px;height:9px;border-radius:50%;background:var(--cobalt)}
+.sec ul{margin:0;padding-left:20px}.sec li{margin:4px 0}.sec p{margin:0}
+.sec.avoid{background:#fffaf5;border-color:#fed7aa}.sec.avoid h2::before{background:#f97316}.sec.avoid h2{color:#9a3412}
+.sec.help{background:#fff6f6;border-color:#fecaca}.sec.help h2::before{background:#ef4444}.sec.help h2{color:#b91c1c}
+.cat{display:inline-block;background:#dbeafe;color:var(--cobalt);font-size:12px;font-weight:700;padding:4px 11px;border-radius:99px}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.cta .btn{flex:1 1 220px;text-align:center}
+.btn.alt{background:#fff;color:var(--cobalt);border:2px solid #bfd3f7}
+.rel{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.rel a{background:#fff;border:1px solid var(--g200);border-radius:99px;padding:7px 13px;text-decoration:none;font-weight:600;font-size:14px;color:var(--navy)}
+.filter{width:100%;padding:13px 14px;border:2px solid var(--g200);border-radius:12px;font:inherit;font-size:16px;margin:8px 0 6px}
+"""
+
+
+def drug_page(d, related):
+    name = d["name"]
+    slug = d["_slug"]
+    url = f"{SITE}/drugs/{slug}/"
+    brands = (d.get("brand_names") or "").strip()
+    title_core = f"{name} ({brands.split(',')[0].strip()})" if brands else name
+    title = f"{title_core}: How to Take and What to Avoid | RareMed Supply"
+    if len(title) > 66:
+        title = f"{name}: How to Take and What to Avoid | RareMed Supply"
+    if len(title) > 66:
+        title = f"{name}: How to Take | RareMed Supply"
+    if len(title) > 66:
+        title = f"{name} | RareMed Supply"
+    use = (d.get("used_for") or "").strip()
+    desc = f"{name}: {use} How to take it, when to take it, what to avoid and when to get help. Pharmacy guidance from RareMed Supply."
+    desc = desc if len(desc) <= 300 else desc[:297] + "..."
+
+    def sec(label, text, cls=""):
+        h = lines_html(text)
+        return f'<section class="sec {cls}"><h2>{esc(label)}</h2>{h}</section>' if h else ""
+
+    rel_html = ""
+    if related:
+        rel_html = '<h2>More %s medicines</h2><div class="rel">%s</div>' % (
+            esc(d["category"]), "".join(f'<a href="/drugs/{esc(r["_slug"])}/">{esc(r["name"])}</a>' for r in related))
+    reviewed = f'<p class="muted">Reviewed by {esc(d["reviewed_by"])}</p>' if d.get("reviewed_by") else ""
+    q = urllib.parse.quote(name)
+    body = f"""<nav class="crumbs"><a href="/">Home</a> &rsaquo; <a href="/drugs/">Medicine guides</a> &rsaquo; {esc(name)}</nav>
+<span class="cat">{esc(d["category"])}</span>
+<h1>{esc(name)}: how to take it safely</h1>
+{f'<p class="lead">{esc(brands)}</p>' if brands else ""}
+{reviewed}
+{sec("What it is for", d.get("used_for"))}
+{sec("How to take it", d.get("how_to_take"))}
+{sec("When to take it", d.get("when_to_take"))}
+{sec("Take it with", d.get("take_with"))}
+{sec("What to avoid", d.get("avoid"), "avoid")}
+{sec("Possible side effects", d.get("side_effects"))}
+{sec("Get help if", d.get("seek_help"), "help")}
+<div class="cta">
+<a class="btn" href="/?q={q}">Find pharmacies near you that have {esc(name)}</a>
+<a class="btn alt" href="/?talk=1">Talk to a pharmacist</a>
+</div>
+<div class="note">This is general information, not personal medical advice. Always follow your doctor's or pharmacist's instructions and read the leaflet that comes with your medicine. Medicines and doses can differ between products and people.</div>
+{rel_html}"""
+    jsonld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Medicine guides", "item": SITE + "/drugs/"},
+            {"@type": "ListItem", "position": 3, "name": name, "item": url}]},
+        {"@type": "MedicalWebPage", "name": title_core + ": how to take it safely", "url": url, "description": desc,
+         "about": {"@type": "Drug", "name": name, **({"alternateName": [b.strip() for b in brands.split(",") if b.strip()]} if brands else {})},
+         "publisher": {"@type": "Organization", "name": "RareMed Supply", "url": SITE}}]}
+    html_out = page(title, desc, url, body, jsonld)
+    return html_out.replace("<style>" + CSS + "</style>", "<style>" + CSS + DRUG_CSS + "</style>")
+
+
+def drugs_hub(drugs):
+    url = SITE + "/drugs/"
+    cats = {}
+    for d in drugs:
+        cats.setdefault(d["category"], []).append(d)
+    blocks = []
+    for c in sorted(cats):
+        links = "".join(
+            f'<li data-n="{esc((x["name"] + " " + (x.get("brand_names") or "")).lower())}"><a href="/drugs/{esc(x["_slug"])}/">{esc(x["name"])}</a></li>'
+            for x in sorted(cats[c], key=lambda x: x["name"].lower()))
+        blocks.append(f'<div class="grp"><h2>{esc(c)} ({len(cats[c])})</h2><ul class="alist">{links}</ul></div>')
+    body = f"""<nav class="crumbs"><a href="/">Home</a> &rsaquo; Medicine guides</nav>
+<h1>Medicine guides: how to take common medicines safely</h1>
+<p class="lead">{len(drugs)} medicines explained in plain language: how to take them, when, with what, what to avoid, and when to get help.</p>
+<input class="filter" id="f" type="search" placeholder="Filter by name, e.g. Paracetamol" aria-label="Filter medicines">
+<div id="list">{"".join(blocks)}</div>
+<div class="note">This is general information, not personal medical advice. Always follow your doctor's or pharmacist's instructions.</div>
+<script>(function(){{var f=document.getElementById('f');f.addEventListener('input',function(){{var q=f.value.toLowerCase().trim();document.querySelectorAll('#list li').forEach(function(li){{li.style.display=(!q||li.getAttribute('data-n').indexOf(q)>-1)?'':'none';}});document.querySelectorAll('#list .grp').forEach(function(g){{var any=Array.prototype.some.call(g.querySelectorAll('li'),function(li){{return li.style.display!=='none';}});g.style.display=any?'':'none';}});}});}})();</script>"""
+    title = "Medicine Guides: How to Take Common Medicines Safely | RareMed Supply"
+    desc = f"{len(drugs)} medicine guides in plain language: how to take them, when, with what, what to avoid and when to get help. From RareMed Supply."
+    jsonld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+        {"@type": "ListItem", "position": 2, "name": "Medicine guides", "item": url}]}
+    extra = ".grp h2{margin-top:26px}.alist{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.alist a{display:block;background:#fff;border:1px solid var(--g200);border-radius:12px;padding:10px 13px;text-decoration:none;font-weight:600;color:var(--navy)}.filter{width:100%;padding:13px 14px;border:2px solid var(--g200);border-radius:12px;font:inherit;font-size:16px;margin:8px 0 6px}"
+    out = page(title, desc, url, body, jsonld)
+    return out.replace("<style>" + CSS + "</style>", "<style>" + CSS + extra + "</style>")
+
+
 def write_sitemap(entries):
     old = ROOT / "sitemap.xml"
     home_lastmod = None
@@ -271,7 +419,7 @@ def main():
     else:
         rows = fetch_all()
     if not rows:
-        print("No pharmacies returned - leaving existing pages untouched.")
+        print("ERROR: the directory_pharmacies table returned 0 rows (is it empty, or is public read access off?). Leaving existing pages untouched.")
         sys.exit(1)
 
     by_state = {}
@@ -297,8 +445,43 @@ def main():
 
     (OUT_DIR / "index.html").write_text(hub_page(hub), encoding="utf-8")
     hub_last = max((e[1] or "" for e in sm), default="") or None
-    write_sitemap([(f"{SITE}/pharmacies/", hub_last, "0.9")] + sm)
+    sitemap_entries = [(f"{SITE}/pharmacies/", hub_last, "0.9")] + sm
     print("Built hub + %d state pages (%d pharmacies)." % (len(hub), sum(c for _, _, c in hub)))
+
+    # ---- medicine guide pages ----
+    if "--drugs-json" in sys.argv:
+        drugs = json.loads(Path(sys.argv[sys.argv.index("--drugs-json") + 1]).read_text(encoding="utf-8"))
+    else:
+        drugs = fetch_drugs()
+    drugs = [d for d in drugs if d.get("name") and d.get("category") and d.get("how_to_take")]
+    if drugs:
+        seen = {}
+        for d in drugs:
+            base = slugify(d["name"]) or "medicine"
+            slug, i = base, 2
+            while slug in seen:
+                slug = "%s-%d" % (base, i); i += 1
+            seen[slug] = d
+            d["_slug"] = slug
+        if DRUG_DIR.exists():
+            shutil.rmtree(DRUG_DIR)
+        DRUG_DIR.mkdir(parents=True)
+        bycat = {}
+        for d in drugs:
+            bycat.setdefault(d["category"], []).append(d)
+        dsm = []
+        for d in drugs:
+            related = [r for r in sorted(bycat[d["category"]], key=lambda r: r["name"].lower()) if r is not d][:6]
+            (DRUG_DIR / d["_slug"]).mkdir(parents=True, exist_ok=True)
+            (DRUG_DIR / d["_slug"] / "index.html").write_text(drug_page(d, related), encoding="utf-8")
+            dsm.append((f"{SITE}/drugs/{d['_slug']}/", (d.get("updated_at") or "")[:10] or None, "0.7"))
+        (DRUG_DIR / "index.html").write_text(drugs_hub(drugs), encoding="utf-8")
+        dlast = max((e[1] or "" for e in dsm), default="") or None
+        sitemap_entries += [(f"{SITE}/drugs/", dlast, "0.9")] + dsm
+        print("Built medicine hub + %d medicine pages." % len(drugs))
+    else:
+        print("No published drug_info entries, so no medicine pages were built.")
+    write_sitemap(sitemap_entries)
 
 
 if __name__ == "__main__":
