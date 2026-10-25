@@ -8,13 +8,13 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/pharmacies/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/pharmacies/fct-abuja/</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -61,7 +61,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/abciximab/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/abemaciclib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/acalabrutinib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/acarbose/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/acetazolamide/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -103,7 +127,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/aflibercept/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/albendazole/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/alfacalcidol/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -115,13 +151,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/all-trans-retinoic-acid/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/allopurinol/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/alteplase-catheter-clearance-formulation/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/aluminium-hydroxide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/ambrisentan/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -140,6 +194,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/amiloride/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/aminocaproic-acid/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -205,13 +265,49 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/anastrozole/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/anidulafungin/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/anti-d-immunoglobulin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/anti-tetanus-immunoglobulin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/antithymocyte-globulin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/apixaban/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/aprotinin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/argatroban/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -283,7 +379,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/atosiban/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/atovaquone-proguanil/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/atropine-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/azacitidine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -319,6 +433,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/basiliximab/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/beclometasone-inhaler/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -326,6 +446,18 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/bedaquiline/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/belatacept/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/bendamustine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -367,13 +499,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/betamethasone-injection/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/betamethasone-valerate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/bevacizumab/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/bictegravir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/bimatoprost/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -386,6 +536,42 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/bisoprolol/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/bivalirudin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/bleomycin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/bortezomib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/bosentan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/brimonidine-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/brinzolamide-eye-drops/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -433,6 +619,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/busulfan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/cabergoline/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -457,6 +649,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/calcitriol/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/calcium-carbonate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -475,6 +673,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/calcium-gluconate-injection/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/canagliflozin/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -482,6 +686,18 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/candesartan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/cangrelor/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/capecitabine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -499,7 +715,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/carbetocin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/carbocisteine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/carboplatin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/carboprost/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/carboxymethylcellulose-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/carfilzomib/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -649,6 +895,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/chloramphenicol-eye-ointment/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/chloroquine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -692,6 +944,24 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/cimetidine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/cinacalcet/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/ciprofloxacin-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/cisplatin/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -805,6 +1075,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/conivaptan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/cromoglicic-acid/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -823,13 +1099,43 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/cyclopentolate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/cyclophosphamide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/cycloserine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/cyclosporine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/cytarabine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/dabigatran/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/dacarbazine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -853,7 +1159,43 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/darbepoetin-alfa/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/darunavir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/dasatinib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/decitabine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/deferasirox/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/deferiprone/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/deferoxamine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -877,6 +1219,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/desirudin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/desloratadine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -890,6 +1238,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/dexamethasone/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/dexamethasone-eye-drops/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -943,6 +1297,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/dinoprostone/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/diphenhydramine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -967,7 +1327,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/dorzolamide-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/doxazosin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/doxorubicin/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1027,6 +1399,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/eltrombopag/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/emicizumab/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/empagliflozin/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1069,13 +1453,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/epoetin-alfa/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/eptifibatide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ergocalciferol/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/ergometrine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ergotamine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/erlotinib/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1141,7 +1549,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/etoposide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/etoricoxib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/everolimus/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/exemestane/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1154,6 +1580,18 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/ezetimibe/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/factor-ix-concentrate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/factor-viii-concentrate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1189,6 +1627,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/ferric-carboxymaltose/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/ferric-derisomaltose/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ferrous-fumarate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1208,6 +1658,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/fexofenadine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/filgrastim/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1243,6 +1699,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/fludarabine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/fludrocortisone/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1250,6 +1712,24 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/fluocinolone-acetonide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/fluorescein-sodium-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/fluorometholone-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/fluorouracil/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1303,6 +1783,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/fulvestrant/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/furosemide/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1322,6 +1808,30 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/ganciclovir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/ganciclovir-eye-gel/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/gatifloxacin-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/gefitinib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/gemcitabine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1405,6 +1915,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/hepatitis-b-immunoglobulin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/hepatitis-b-vaccine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/human-fibrinogen-concentrate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/human-normal-immunoglobulin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/human-papillomavirus-vaccine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/human-rabies-immunoglobulin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/hydralazine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1447,6 +1993,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/hydroxyurea/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/hydroxyzine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1459,13 +2011,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/hypromellose-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ibandronate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/ibrutinib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ibuprofen/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/ifosfamide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/imatinib/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1478,6 +2054,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/imipramine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/inactivated-polio-vaccine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1555,6 +2137,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/irinotecan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/iron-sucrose-injection/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/isoniazid/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1615,6 +2209,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/ketorolac-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/ketotifen-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/lamivudine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1639,6 +2245,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/lanthanum-carbonate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/latanoprost/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ledipasvir/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1646,6 +2264,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/leflunomide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/lenalidomide/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1789,7 +2413,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/luspatercept/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/magnesium-sulfate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/magnesium-sulfate-injection/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1855,7 +2491,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/melphalan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/memantine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/mercaptopurine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1873,7 +2521,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/methoxy-polyethylene-glycol-epoetin-beta/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/methyldopa/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/methylergometrine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1939,6 +2599,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/mitomycin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/molnupiravir/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1976,6 +2642,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/moxifloxacin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/moxifloxacin-eye-drops/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2035,6 +2707,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/nepafenac-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/nevirapine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2053,7 +2731,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/nifedipine-immediate-release-capsules/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/nifurtimox/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/nilotinib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/nintedanib/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2113,6 +2809,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/ofloxacin-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/olanzapine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2120,6 +2822,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/olmesartan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/olopatadine-eye-drops/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2138,6 +2846,18 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/oseltamivir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/osimertinib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/oxaliplatin/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2167,6 +2887,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/oxytocin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/paclitaxel/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/palbociclib/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/paliperidone/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2185,13 +2923,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/paricalcitol/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/paroxetine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/patiromer/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/pegfilgrastim/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/peginterferon-alfa/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/pemetrexed/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2233,6 +2995,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/phenylephrine-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/phenytoin/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2246,6 +3014,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/phytonadione-injection/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/pilocarpine-eye-drops/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2269,6 +3043,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/pirfenidone/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/piroxicam/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2281,7 +3061,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/pneumococcal-conjugate-vaccine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/polymyxin-b/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/polyvinyl-alcohol-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/pomalidomide/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2341,6 +3139,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/prednisolone-acetate-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/prednisone/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2366,6 +3170,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/probenecid/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/procarbazine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2402,6 +3212,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/propylthiouracil/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/prothrombin-complex-concentrate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2479,7 +3295,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/ranibizumab/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ranolazine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/rasburicase/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/recombinant-factor-viia/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2504,6 +3338,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/ribavirin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/ribociclib/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2539,6 +3379,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/riociguat/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/risedronate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2551,7 +3397,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/ritodrine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ritonavir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/rituximab/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2575,6 +3433,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/romiplostim/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ropinirole/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2587,6 +3451,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/rotavirus-vaccine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/salbutamol-nebuliser-solution/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2594,6 +3464,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/salmeterol/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/sargramostim/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2617,6 +3493,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/sevelamer-carbonate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/sildenafil/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2630,6 +3512,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/simvastatin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/sirolimus/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2653,13 +3541,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/sodium-citrate-solution/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/sodium-cromoglicate-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/sodium-phosphate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/sodium-polystyrene-sulfonate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/sodium-valproate/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/sodium-zirconium-cyclosilicate/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2731,6 +3643,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/tacrolimus-capsules/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/tacrolimus-ointment/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2744,6 +3662,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/tafenoquine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/tafluprost/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2774,6 +3698,24 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/telmisartan/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/temozolomide/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/temsirolimus/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/tenecteplase-injection/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2815,7 +3757,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/tetanus-toxoid-vaccine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/tetracycline/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/thalidomide/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2839,7 +3793,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/thioguanine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/ticagrelor/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/timolol-eye-drops/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2857,6 +3823,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/tirofiban/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/tizanidine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2869,7 +3841,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/tobramycin-eye-drops/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/tolterodine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/tolvaptan/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2899,6 +3883,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/trastuzumab/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/travoprost/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/trazodone/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2918,6 +3914,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/trimethoprim/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/tropicamide/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2965,6 +3967,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://raremedsupply.com.ng/drugs/venetoclax/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://raremedsupply.com.ng/drugs/venlafaxine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2972,6 +3980,30 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/verapamil/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/verteporfin/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/vinblastine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/vincristine/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/vinorelbine/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3020,6 +4052,12 @@
   </url>
   <url>
     <loc>https://raremedsupply.com.ng/drugs/zanamivir/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://raremedsupply.com.ng/drugs/zanubrutinib/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
