@@ -215,7 +215,7 @@ def page(title, desc, canonical, body, jsonld):
 <main class="wrap">
 {body}
 </main>
-<footer><div class="wrap">RareMed Supply does not sell or dispense medications. It is a digital platform that helps patients find pharmacies. All purchases and dispensing are handled by licensed pharmacies. Pharmacy details are collected from public sources and from pharmacies registered with RareMed Supply and may be out of date, so please confirm with the pharmacy before you visit.<br><br><a href="/">raremedsupply.com.ng</a> &middot; <a href="/pharmacies/">All states</a></div></footer>
+<footer><div class="wrap">RareMed Supply does not sell or dispense medications. It is a digital platform that helps patients find pharmacies. All purchases and dispensing are handled by licensed pharmacies. Pharmacies listed have been checked by RareMed verification agents. Details such as stock and opening hours can change, so please confirm with the pharmacy before you visit.<br><br><a href="/">raremedsupply.com.ng</a> &middot; <a href="/pharmacies/">All states</a></div></footer>
 </body>
 </html>
 """
@@ -253,7 +253,7 @@ def state_page(state, rows):
 <h1>Pharmacies in {esc(ttl)}, Nigeria</h1>
 <p class="lead">{n} pharmacies in {esc(disp)}{f", {with_phone} with a phone number" if with_phone else ""}. Need a specific medicine? Search it below and RareMed Supply will show which pharmacies near you have it.</p>
 <form class="search" action="/" method="get"><input type="search" name="q" placeholder="Search a medicine, e.g. Amoxicillin" required minlength="2" aria-label="Medicine name"><button class="btn" type="submit">Search</button></form>
-<div class="note">This list comes from public online directories and from pharmacies registered with RareMed Supply. Details may be out of date, so please call the pharmacy to confirm before you travel. Are you a pharmacy owner? <a href="/#pharmacy">Register your pharmacy free</a> to keep your details and stock up to date.</div>
+<div class="note">Pharmacies listed here have been checked by RareMed verification agents. Stock and opening hours can change, so please call the pharmacy to confirm before you travel. Are you a pharmacy owner? <a href="/#pharmacy">Register your pharmacy free</a> to keep your details and stock up to date.</div>
 {chr(10).join(parts)}"""
 
     title = f"Pharmacies in {ttl}, Nigeria | RareMed Supply"
